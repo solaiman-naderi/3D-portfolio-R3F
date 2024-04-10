@@ -4,7 +4,7 @@ import { useFrame } from "@react-three/fiber";
 const Airplane = (props) => {
   const gltf = useGLTF("/models/airplane/model.glb");
 
-  const helixSpeed = 6;
+  const helixSpeed = 10;
 
   useFrame((_, delta) => {
     gltf.scene.children[1].rotation.x += delta * helixSpeed;
