@@ -9,7 +9,7 @@ const Background = () => {
         files={["/textures/backgrounds/venice_sunset_1k.hdr"]}
       />
 
-      <Sphere scale={[10, 10, 10]} rotation-y={Math.PI / 2}>
+      <Sphere scale={[100, 100, 100]} rotation-y={Math.PI / 2}>
         <LayerMaterial lighting="physical" side={BackSide} transmission={1}>
           <Gradient
             colorA={"#357ca1"}
